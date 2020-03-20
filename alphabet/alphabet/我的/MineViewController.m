@@ -46,7 +46,7 @@
     [super viewDidLoad];
     // 设置导航栏文字和字体
     self.navigationItem.title = @"我的";
-    [self.navigationController.navigationBar setTitleTextAttributes:@{NSFontAttributeName:[UIFont boldSystemFontOfSize:24],NSForegroundColorAttributeName:[UIColor whiteColor]}];
+//    [self.navigationController.navigationBar setTitleTextAttributes:@{NSFontAttributeName:[UIFont boldSystemFontOfSize:24],NSForegroundColorAttributeName:[UIColor whiteColor]}];
     [self addTableView];
     
     _modelArr = @[

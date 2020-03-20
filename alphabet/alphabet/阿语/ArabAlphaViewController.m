@@ -157,7 +157,7 @@
         int colsNum = 4;
         
         // 第0个即排头的按钮的y
-        int firstBtnY = 68 + 10;
+        int firstBtnY = 40;//68 + 10;
         // 按钮之间的净间距
         int btnMargin = 0;
         

@@ -28,7 +28,7 @@
     [super viewDidLoad];
     self.title = @"设置";
     
-    self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
+//    self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
     self.navigationController.navigationBar.topItem.title = @"";
     
     [self addTableView];
@@ -39,10 +39,10 @@
                 @"icon": @"about.png", // 90px -> @3x
                 @"title": @"关于"
             },
-            @{
-                @"icon": @"privacy.png",
-                @"title": @"隐私"
-            },
+//            @{
+//                @"icon": @"privacy.png",
+//                @"title": @"隐私"
+//            },
             @{
                 @"icon": @"logout.png",
                 @"title": @"退出"
@@ -54,10 +54,10 @@
                 @"icon": @"about.png", // 90px -> @3x
                 @"title": @"关于"
             },
-            @{
-                @"icon": @"privacy.png",
-                @"title": @"隐私"
-            }
+//            @{
+//                @"icon": @"privacy.png",
+//                @"title": @"隐私"
+//            }
         ];
     }
 }
@@ -101,19 +101,21 @@
         case 0:
             {
                 NSLog(@"sg__0");
+                UIViewController *ctrl = [[NSClassFromString(@"AboutViewController") alloc]init];
+                [self.navigationController pushViewController:ctrl animated:YES];
             }
             break;
+//        case 1:
+//        {
+//            NSLog(@"sg__1");
+//            UIViewController *ctrl = [[NSClassFromString(@"PrivacyViewCtrl") alloc]init];
+//            [self presentViewController:ctrl animated:YES completion:nil];
+//
+//        }
+//        break;
         case 1:
         {
             NSLog(@"sg__1");
-            UIViewController *ctrl = [[NSClassFromString(@"PrivacyViewCtrl") alloc]init];
-            [self presentViewController:ctrl animated:YES completion:nil];
-            
-        }
-        break;
-        case 2:
-        {
-            NSLog(@"sg__2");
             // 根据用户上次选择的,展示
             NSUserDefaults *userDefault = [NSUserDefaults standardUserDefaults];
             [userDefault setObject:@"" forKey:@"userDefault_username"];

@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -33,10 +34,9 @@
                     </connections>
                 </textView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6kX-66-3W0">
-                    <rect key="frame" x="37.5" y="260" width="300" height="44"/>
+                    <rect key="frame" x="10" y="260" width="355" height="44"/>
                     <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="300" id="LU3-fx-PXL"/>
                         <constraint firstAttribute="height" constant="44" id="O8G-fW-Vnh"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="20"/>
@@ -62,6 +62,8 @@
                 <constraint firstItem="d03-TV-AHP" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="KsQ-TR-GEg"/>
                 <constraint firstItem="fQI-LD-EyI" firstAttribute="trailing" secondItem="d03-TV-AHP" secondAttribute="trailing" constant="-10" id="POv-PP-k7t"/>
                 <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="d03-TV-AHP" secondAttribute="trailing" constant="10" id="XkR-fQ-HX2"/>
+                <constraint firstItem="6kX-66-3W0" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="10" id="dpU-l6-zao"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="6kX-66-3W0" secondAttribute="trailing" constant="10" id="otf-Dc-LVr"/>
                 <constraint firstItem="d03-TV-AHP" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="10" id="twe-7R-00H"/>
                 <constraint firstItem="fQI-LD-EyI" firstAttribute="bottom" secondItem="d03-TV-AHP" secondAttribute="bottom" constant="-10" id="ukB-cA-dPh"/>
             </constraints>

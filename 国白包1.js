@@ -1,3 +1,6 @@
+deployment target: 10.3
+
+
 todo list 0: 绑定自己的手机号 √
 拿到国内开发者账号后，
 登陆https://appleid.apple.com/
@@ -143,11 +146,8 @@ todo list 9: 尾声，上传项目源代码到git
 
 git init
 git add --all
-git commit -m 'iOS 国内区白包1 第一次提交(itunesconnect不能实时同步appid,尚未创建应用)'
+git commit -m 'iOS 国内区白包1 多国字母 第一次提交'
 git remote add origin https://github.com/ixixii/iOS_APP_GuoNei1_Alphabet.git
-
-
-// 注意： 以下尚未执行。。。
 git push -u origin master
 git push origin master
 --------------------------
@@ -157,7 +157,6 @@ todo list 7: 打包ipa，Xcode不用登陆开发者账号，使用distribution p
             使用Application uploder上传ipa 
             打包上传时，不用XCODE，而是推荐使用Application uploder，但是需要用app专用密码登陆才行
             url: https://appleid.apple.com/
-            
 
             版权：
 

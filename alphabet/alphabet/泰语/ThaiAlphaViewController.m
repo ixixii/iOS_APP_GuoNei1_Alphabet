@@ -74,7 +74,7 @@
     NSString *fullPath = [mainBundle pathForResource:@"Tai_Alpha" ofType:@"plist"];
     NSArray *classDictArr = [NSArray arrayWithContentsOfFile:fullPath];
     
-        _alphaModelArr = [TaiYuAlphaModel objectArrayWithKeyValuesArray:classDictArr];
+    _alphaModelArr = [TaiYuAlphaModel objectArrayWithKeyValuesArray:classDictArr];
 }
 
 #pragma mark - 视图
@@ -155,7 +155,7 @@
             }
         }
         int colsNum = 5;
-        int firstBtnY = 65 + 10;
+        int firstBtnY = 40;//65 + 10;
         int btnMargin = 0;
         
         CGFloat btnW = ((ScreenWidth - 10 - 10) - (colsNum - 1) * btnMargin) / colsNum;

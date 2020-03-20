@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>className</key>
+		<string>JapanViewController</string>
+		<key>title</key>
+		<string>日语50音</string>
+		<key>icon</key>
+		<string>1.png</string>
+		<key>bigImg</key>
+		<string>big1.png</string>
+		<key>desc</key>
+		<string>日语的假名共有七十一个，包括清音、浊音、半浊音和拨音。其中基本元音有5个，辅音41个，不可拼4个。每五个一行，一共是十行。就是“五十音图”了。</string>
+	</dict>
+	<dict>
+		<key>className</key>
+		<string>KoreanAlphaViewController</string>
+		<key>title</key>
+		<string>韩语40音</string>
+		<key>icon</key>
+		<string>2.png</string>
+		<key>bigImg</key>
+		<string>big2.png</string>
+		<key>desc</key>
+		<string>韩语字母表由21个元音和19个辅音组成，可以组成许多音节。</string>
+	</dict>
+	<dict>
+		<key>className</key>
+		<string>ThaiAlphaViewController</string>
+		<key>title</key>
+		<string>泰语蝌蚪文</string>
+		<key>icon</key>
+		<string>3.png</string>
+		<key>bigImg</key>
+		<string>big3.png</string>
+		<key>desc</key>
+		<string>泰文有辅音字母42个，元音字母和符号32个。元音字母可以在辅音字母的前后出现, 还可以出现在辅音字母的上、下部位。有4个声调符号，标在辅音的右上方，第一声调不标符号。泰文自左而右书写，一般不使用标点符号。</string>
+	</dict>
+	<dict>
+		<key>className</key>
+		<string>EYuViewController</string>
+		<key>title</key>
+		<string>俄语字母</string>
+		<key>icon</key>
+		<string>4.png</string>
+		<key>bigImg</key>
+		<string>big4.png</string>
+		<key>desc</key>
+		<string>俄语字母共33个，其中元音10个，辅音21个，还有2个无音字母，有印刷体和手写体的区别。</string>
+	</dict>
+	<dict>
+		<key>className</key>
+		<string>ArabAlphaViewController</string>
+		<key>title</key>
+		<string>阿拉伯语字母</string>
+		<key>icon</key>
+		<string>5.png</string>
+		<key>bigImg</key>
+		<string>big5.png</string>
+		<key>desc</key>
+		<string>书写方式为从右至左，共有28个辅音字母，除其中有3个可兼起元音作用外，无专作元音用的字母。</string>
+	</dict>
+</array>
+</plist>

@@ -138,7 +138,7 @@
         // 意大利语就是5列
         int colsNum = 12;
         // 第0个即排头的按钮的y
-        int firstBtnY = 65 + 10;
+        int firstBtnY = 40;//65 + 10;
         // 按钮之间的净间距
         int btnMargin = 0;
         
